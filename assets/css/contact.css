@@ -43,11 +43,9 @@ h1{
    
 }
 button a {
-    color:rgba(0, 0, 0, .5);
+    color:rgba(64, 36, 36, 0.581);
     text-decoration: none;
-background-image: -moz-linear-gradient(top, #FFFFFF, #AFEEEE);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #FFFFFF), color-stop(1.0, #AFEEEE));
-    background-color: #DDDDDD;
+background-color: rgba(0, 0, 0, .5);
     position: absolute;
     top: 450px;
     left: 460px;
@@ -57,6 +55,7 @@ background-image: -moz-linear-gradient(top, #FFFFFF, #AFEEEE);
 
     border: 2px solid snow;
     border-radius: 5px 25px;
+    text-transform: capitalize;
 
 }
 
