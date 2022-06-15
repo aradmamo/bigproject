@@ -1,0 +1,307 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+header{position: fixed;
+top: 0;
+z-index: 5;
+width: 100vw;
+}
+#icongeneral{
+    height: 80px;
+    position: static;
+    top: 0;
+    right: 0px;
+    background-color:#f2f2f2;
+    border-radius: 25px;
+  
+}
+
+.menu{
+   margin-right: 75px;
+    list-style-type: none;
+    color:#0d0d0d ;
+text-decoration: none;
+
+        font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    transition: all 1s ease-in-out;
+    ;
+}
+.menu:hover{
+background-color:greenyellow;
+border-radius: 15px;
+
+transform: scale(1.5);
+
+
+
+}
+footer h1 {
+    font-size: 45pt;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'Roboto';
+    text-shadow: 5px 5px 5px black;
+    text-decoration: underline;
+    text-decoration-color: bisque;
+}
+.linka{
+    color:#9453a6;
+    text-decoration: none;
+}
+.tit1{
+    padding-top:  30px;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Henny Penny';
+    text-decoration: underline;
+transition: all 2.5s ;   
+
+       
+}
+.tit1:hover{
+   
+    color:#8CBF3F;
+    text-shadow: 10px 5px 10px black;
+    text-decoration: none;
+    
+  
+}
+
+.para{
+    font-family: 'Roboto', sans-serif;
+    width: 60vw;
+    font-size:15px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(33, 37, 41, .85);    border-radius: 15px;
+    border:#8CBF3F 3px solid;
+    box-shadow: 5px 10px 15px rgba(0,0,0,.5);
+}
+#carn{
+    width: 100vw;
+    opacity:45%;
+   height: 595px;
+   position:absolute;
+   top: 35px;
+z-index:-1;
+   
+}
+.card-title{
+    font-size: 12px;
+}
+.card{
+    width: 10rem;
+    height:190px;
+    margin: 15px;
+}
+.walkon {
+    font-weight: 500;
+    font-size: 9px;
+    border-radius: 7px;
+line-height: 0.9;
+height: 100px;
+    font-family: 'Roboto', sans-serif;
+    transition: all 1.5s ease-in-out;
+}
+.imgcard{
+    border: #8CBF3F 3px solid;
+        height: 105px;
+    opacity: 80%;
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.85);
+
+    
+}
+h5{
+    text-decoration: underline;
+    text-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+.bigcontainer{
+    background-color: rgba(33, 37, 41, .85);
+    width: 755px;
+        height: 430px;
+        border:  #8CBF3F 1px solid;
+        border-radius: 15px;
+}
+    
+   
+    .card-text:hover{
+        font-size: 10px;
+        line-height: 1;
+        z-index: 2;
+        background-size: cover;
+        opacity: 100%;
+    
+        
+    }
+  
+#switchcarusel{
+    display: none;
+  
+}
+
+img[alt*="mask"]{
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    right: 65px;
+    transition: all 2.5s ease-in-out;
+border-radius: 45px;
+border: #8CBF3F 3px solid;
+
+    transform: rotate(10deg);
+animation-name: float;
+    -webkit-animation-name: float;
+
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0%);  
+    }
+
+    50% {
+        transform: translateY(10%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes float {
+    0% {
+        -webkit-transform: translateY(0%);
+    }
+
+    50% {
+        -webkit-transform: translateY(10%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+   
+
+img[alt*="mask"]:hover{
+    width: 400px;
+    height: 400px;
+filter: brightness(200%);
+z-index: 22;
+
+}
+.row{
+    height: 170px;
+}
+
+
+
+.header-menu {
+   
+  
+    background-color: #222;
+    display: none;}
+  
+
+@media (min-width:0px) and (max-width:560px){
+    header{
+        display: none;
+    }
+        img[alt*="mask"] {display: block;
+            font-size: 280px;
+            position: relative;
+       top: -14px ;
+            left: 110px;
+}
+
+
+        
+                .humburger{
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    color:red;
+
+                }
+                .header-menu{
+                   
+            
+                    background-color: rgba(33, 37, 41, .85);
+                }
+                                 .header-menu a{
+                                     text-decoration: none;
+                                     color: #f2f2f2;
+                                 }
+                               
+                                 .bigcontainer{
+                                     width: 100%;
+                                 }
+                                
+/* 
+          .bigcontainer{
+              height: 550px;
+              width: 100vw; 
+            display: block;
+                width: 100vw;
+            
+          }
+                 .card{
+                    
+                     font-size: 15px;
+                
+                   
+                                    
+                display: block;
+                                    
+                 }
+                 .card-text{
+                     height: 100px;
+                     width: 85px;
+                     z-index: 450;
+                 }
+                                        .walkon {
+                                            font-size: 8px;
+                                            border: 1px solid #8CBF3F;
+                    
+                                        }
+                    
+                                        .row {
+                                            height: 230px;
+                                            width: 100vw;
+                                        } */
+                 #demo{
+                     display: none;
+                 }
+              /*    .imgcard{
+                     font-size: 10px;
+                    
+                     z-index: -3;
+                 } */
+              
+                 footer{
+                     height: 60px;
+                 }
+                 
+               
+
+}
+@media (min-width:560px)and (max-width:1100px){
+    img[alt*="mask"]{
+        display: none;
+    }
+    .bigcontainer{
+       width: 100vw;
+    }
+    footer{
+        height: 70px;
+    }
+}

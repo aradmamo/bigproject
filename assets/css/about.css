@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100vw;
+    min-height: 50px;
+}
+a {
+    margin-right: 75px;
+    list-style-type: none;
+
+    text-decoration: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    transition: all 1s ease-in-out;
+    ;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+p{font-family: 'Henny Penny';}
+
+a:hover {
+    background-color:greenyellow;
+    border-radius: 15px;
+    transform: scale(1.5);
+    
+}
+#icongeneral {
+    height: 80px;
+    position: static;
+    top: 0;
+    right: 0px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+
+}
+img[alt="oulatoya"]{
+    border: 2px seashell;
+
+
+    width: 300px;
+    height: 300px;
+    box-shadow:10px 8px 14px #f2f2f2;
+    transition: all 1s ease-in-out;
+    
+}
+
+img[alt="oulatoya"]:hover{
+    background-color: #8CBF3F;
+    filter:brightness(135%) ;
+    filter: drop-shadow(120%);
+filter: drop-shadow(15px 15px 10px greenyellow    ) ;
+        transition: ease-in-out .2s;
+}
+.header-menu {
+    background-color: #222;
+    display: none;
+}
+
+
+.main-info {
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 50px;
+}
+
+
+
+.header-text {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-text h1 {
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    color: #fff;
+    width: 300px;
+    font-weight: bold;
+}
+
+.text-blocks-container {
+    margin-top: 70px;
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, .5);
+        border-radius: 20px;
+    background-color: rgba(33, 37, 41, .85);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 26px
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+}
+footer h1 {
+    font-size: 45pt;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'Roboto';
+    text-shadow: 5px 5px 5px black;
+    text-decoration: underline;
+    text-decoration-color: bisque;
+}
+@media (min-width:0px) and (max-width:960px) {
+   header{
+       display: none;
+   }
+    .container{
+        display: block;
+        margin-top: 0px;
+
+    }
+        .humburger {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color:red;
+    
+        }
+           footer {
+               height: 60px;
+    
+           }
+    
+           footer h1 {
+               font-size: 35px;
+           }
+    
+        .header-menu {
+    
+    
+            background-color: rgba(33, 37, 41, .85);
+        }
+    
+        .header-menu a {
+            text-decoration: none;
+            color: #f2f2f2;}    
+    .latoya{
+        margin-top: 75px;
+    }
+    img{display: block;}
+}

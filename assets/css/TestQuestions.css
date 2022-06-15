@@ -1,0 +1,101 @@
+body {
+   background-color: rgba(0, 0, 0, 0.411);
+background-image: url(maski.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type="radio"] {
+    box-sizing: border-box;
+    appearance: none;
+    background: white;
+    outline: 2px solid #333;
+    border: 3px solid white;
+    width: 16px;
+    height: 16px;
+}
+
+input[type="radio"]:checked {
+    background:cornflowerblue;  
+}
+h1{
+    font-family:'Josefin Sans';
+    font-size: 45pt;
+    text-transform: capitalize;
+   color:aliceblue;
+   text-shadow:10px 10px 10px black;
+ 
+        
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family:'Indie Flower' ;
+    color: grey;
+    background-color: #000000;
+}
+
+
+p {
+    text-decoration: underline;
+}
+.q{
+  
+    
+font-size: 25pt;
+font-weight: 400;
+    font-family:  'Indie Flower';
+   color:floralwhite;
+    }
+    .fs-4{
+        font-family:'Josefin Sans' ;
+       
+    }
+    .container{
+        background-color: rgba(0, 0, 0, 0.501);
+        box-shadow: 70px 10px 42px rgba(2, 28, 85, 0.489);
+    }
+    
+
+
+.test{
+    
+background-color: rgba(0, 0, 0, 0.501);
+border-radius: 20px;
+text-decoration: underline;
+font-size: 25pt;
+width: 350px;
+font-family: 'arial';
+text-shadow: 2px 13px 13px black;
+}
+#submit{
+    font-size: 30pt;
+    margin-left: 880px;
+font-family: 'arial';   
+border-radius: 20px;
+}
+@media (min-width:0px) and (max-width:560px){
+    #submit{
+margin-left: 0;
+    }
+ 
+    .container{
+        font-size: 15px;
+    }
+    .q{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .test{
+        font-size: 31px;
+    }
+}@media (min-width:560px) and (max-width:960px){
+    #submit {
+            margin-left: 200px;
+        }
+                   .q {
+                       font-size: 25px;
+                      
+                   }
+}
