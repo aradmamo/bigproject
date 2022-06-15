@@ -43,7 +43,7 @@ h1{
    
 }
 button a {
-    color:rgba(64, 36, 36, 0.581);
+    color:rgba(255, 255, 255, 0.752);
     text-decoration: none;
 background-color: rgba(0, 0, 0, .5);
     position: absolute;
@@ -176,19 +176,19 @@ animation-iteration-count: infinite;
 
 }@keyframes example {
     0% {
-        background-color: rgba(255, 0, 0, 0.389);
+        background-color: rgba(93, 13, 13, 0.433);
     }
 
     25% {
-        background-color: rgba(255, 255, 0, 0.521);
+        background-color: rgba(207, 207, 8, 0.482);
     }
 
     50% {
-        background-color: rgba(114, 155, 245, 0.581);
+        background-color: rgba(10, 8, 95, 0.685);
     }
 
     100% {
-        background-color: rgb(155, 254, 155);
+        background-color: rgba(13, 156, 13, 0.504);
     }
 }
 
