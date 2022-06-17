@@ -15,6 +15,3 @@ meg.addEventListener('click', ()=>{
     
 })
 })
-/* megmeg.addEventListener('click',()=>{
-    megmeg.style.transform = 'rotate(360deg)'
-}) */

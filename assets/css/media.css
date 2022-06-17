@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-background-image: -moz-linear-gradient(-45deg, #6495ED, #32CD32);
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.00, #6495ED), color-stop(1.0, #32CD32));
+background-image: -moz-linear-gradient(-45deg, #FFFACD 13%, #FFF5EE);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.13, #FFFACD), color-stop(1.0, #FFF5EE));
     background-color: #DDDDDD;
 }
 
@@ -21,6 +21,11 @@ font-family: 'Josefin Sans', sans-serif;
     border-radius: 15px 100px;
     text-decoration: underline;
     text-transform: capitalize;
+    filter: grayscale(100%);
+    transition: all 1s;
+}
+.h1:hover{
+    filter: grayscale(0);
 }
 
 header {
@@ -178,7 +183,7 @@ footer {
     border-radius: 85px 15px;
     box-shadow: 15px 10px 15px saddlebrown;
     transition:0.5s all;
-filter: grayscale(50%);
+filter: grayscale(75%);
 
 } 
 .book:hover{

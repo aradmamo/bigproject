@@ -45,7 +45,6 @@ h1{
 button a {
     color:rgba(255, 255, 255, 0.752);
     text-decoration: none;
-background-color: rgba(0, 0, 0, .5);
     position: absolute;
     top: 450px;
     left: 460px;
@@ -56,6 +55,30 @@ background-color: rgba(0, 0, 0, .5);
     border: 2px solid snow;
     border-radius: 5px 25px;
     text-transform: capitalize;
+        animation-name: colors;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            -webkit-animation-iteration-count: infinite;
+        
+        }
+        
+        @keyframes colors {
+            0% {
+                background-color: rgba(93, 13, 13, 0.433);
+            }
+        
+            25% {
+                background-color: rgba(207, 207, 8, 0.482);
+            }
+        
+            50% {
+                background-color: rgba(10, 8, 95, 0.685);
+            }
+        
+            100% {
+                background-color: rgba(13, 156, 13, 0.504);
+            }
+        
 
 }
 
@@ -79,18 +102,41 @@ iframe{
     box-shadow: 5px 5px 10px black;
 }
 form{
-  background-color:rgba(0, 0, 0, .5) ;
   border: 2px solid snow;
   opacity: 85%;
-    height: 450px;
+    height: 430px;
     border-radius: 5px 75px;
     width: 450px;
     padding: 25px;
     box-shadow: 5px 5px 10px black;
+    animation-name: colors;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+    
+    }
+    
+    @keyframes colors {
+        0% {
+            background-color: rgba(93, 13, 13, 0.433);
+        }
+    
+        25% {
+            background-color: rgba(207, 207, 8, 0.482);
+        }
+    
+        50% {
+            background-color: rgba(10, 8, 95, 0.685);
+        }
+    
+        100% {
+            background-color: rgba(13, 156, 13, 0.504);
+        }
+    }
 
     
   
-}
+
 label{
 margin-bottom: 10px;
     background-color: rgba(0, 0,0, .7);
@@ -148,11 +194,11 @@ span{
     width: 150px;
     font-size: 25pt;
     color:#f2f2f2;
-    background-color: rgba(0, 0,0, .5);
 box-shadow: 1px 10px 5px black;
 border-radius: 15px;
 cursor: pointer;
 transition: all 1.5s;
+    background-color: rgba(0, 0, 0, .5);
 }
 #btn:hover{
     color: #125;
@@ -169,12 +215,12 @@ height: 300px;
 border: 2px solid snow;
 margin-top: 35px;
 box-shadow: 5px 5px 10px black;
-animation-name: example;
+animation-name: colors;
 animation-duration: 10s;
 animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
 
-}@keyframes example {
+}@keyframes colors {
     0% {
         background-color: rgba(93, 13, 13, 0.433);
     }
@@ -212,7 +258,7 @@ p:hover{
     background-color: #222;
     display: none;
 }
-@media (min-width:0px)and (max-width:960px){
+@media (min-width:0px)and (max-width:560px){
     header{
         display: none;
     }
@@ -264,4 +310,18 @@ p:hover{
     footer h1{
         font-size: 35px;
     }
+}
+@media (min-width:560px)and (max-width:1360px) {
+form{
+    display: block;
+    
+}
+iframe{
+    position: relative;
+    top: 50px;
+    width: 100vw;
+}
+button a {
+    font-size: 55px;
+}
 }

@@ -75,6 +75,13 @@ font-family: 'Montserrat';
     background-color: rgba(33, 37, 41, .85);    border-radius: 15px;
     border:#8CBF3F 3px solid;
     box-shadow: 5px 10px 15px rgba(0,0,0,.5);
+    transition: all 2.2s;
+}
+.para:hover{
+    width: 70vw;
+   
+    text-align: center;
+    margin: 0 auto;
 }
 #carn{
     width: 100vw;

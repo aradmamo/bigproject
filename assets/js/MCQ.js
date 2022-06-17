@@ -4,7 +4,6 @@ submit.addEventListener('click', function() {
     var answers = document.querySelectorAll('.q input');
     let score =0;
     let spancscore =document.querySelector('.test');
-    let x =document.querySelectorAll('.q .answer');
 
 
     answers.forEach(a => {
@@ -18,18 +17,15 @@ submit.addEventListener('click', function() {
 
         }
         if(a.checked && a.value == 1){
-       
+            
 
-
-        
+            score =score +10
     a.style.background = "green";
-   
-    score =score +10
     spancscore.innerHTML ='Your Score:'+ score+'pts'
     spancscore.style.color = 'green'
     if(score === 100){
         spancscore.innerHTML = score+"pts" + ' Excellent!'
-      
+    
     }
     if(score <=50){
         spancscore.innerHTML = ' Please Try Again ' + score +"pts"
@@ -43,16 +39,7 @@ submit.addEventListener('click', function() {
 
    
     
-     /*      x.forEach(w =>{
-                let to = a[x].value;
-to.innerHTML = 'salaah'
-}
-       
-   ) */
-/*  x.forEach(qw =>{
-    if(spancscore.style.background = 'green' && a.value ==1 && a.checked && score +10){
-       qw.innerHTML = ' You are right'
-    } */
+ 
         
   
 

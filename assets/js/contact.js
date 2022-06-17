@@ -27,6 +27,7 @@ span.style.color ="red"
     }
     if(email.value.indexOf("@")==-1 || email.value.indexOf(".")==-1){
         e.preventDefault();
+      
 error2.innerHTML = "*Sir please check your email again"
 
 

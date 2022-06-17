@@ -76,6 +76,7 @@ text-shadow: 2px 13px 13px black;
 font-family: 'arial';   
 border-radius: 20px;
 }
+
 @media (min-width:0px) and (max-width:560px){
     #submit{
 margin-left: 0;
@@ -91,7 +92,7 @@ margin-left: 0;
     .test{
         font-size: 31px;
     }
-}@media (min-width:560px) and (max-width:960px){
+}@media (min-width:560px) and (max-width:1260px){
     #submit {
             margin-left: 200px;
         }
@@ -100,3 +101,4 @@ margin-left: 0;
                       
                    }
 }
+
