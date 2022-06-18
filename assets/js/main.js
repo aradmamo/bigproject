@@ -10,7 +10,7 @@ let megmeg = document.querySelectorAll('.bigcontainer  .imgcard');
 megmeg.forEach(meg =>{
 meg.addEventListener('click', ()=>{
     meg.style.transform = 'rotate(360deg)'
-
+meg.style.opacity = '100%'
  
     
 })

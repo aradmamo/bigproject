@@ -182,12 +182,12 @@ footer {
     height: 250px;
     border-radius: 85px 15px;
     box-shadow: 15px 10px 15px saddlebrown;
-    transition:0.5s all;
 filter: grayscale(75%);
 
 } 
 .book:hover{
 filter: grayscale(0%);
+filter: brightness(110%);
 }
 
 .lg-custom-thumbnails.lg-outer {

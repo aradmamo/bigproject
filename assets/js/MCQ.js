@@ -35,18 +35,7 @@ submit.addEventListener('click', function() {
         spancscore.innerHTML = 'You Can Better ' + score +"pts"
         spancscore.style.color = 'orange'
     }
-
-
-   
-    
- 
-        
   
-
-
-
-  
-
 
 
            }
