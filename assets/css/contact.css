@@ -259,6 +259,9 @@ p:hover{
     display: none;
 }
 @media (min-width:0px)and (max-width:560px){
+   body{
+    background-attachment: fixed;
+   }
     header{
         display: none;
     }
