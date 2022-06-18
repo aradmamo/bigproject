@@ -7,7 +7,7 @@ burger.addEventListener('click', ()=>{
 let img = document.querySelectorAll('.container .lato');
 img.forEach(one => {
    one.addEventListener('click',()=>{
-   one.style.transform = 'rotate(1080deg)' 
+   one.style.transform = 'rotate(360deg)' 
    
 }
 )

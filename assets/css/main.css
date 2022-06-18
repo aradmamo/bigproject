@@ -117,6 +117,7 @@ font-family: 'Creepster' ;
     transition: all 1s ease-in-out;
     box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.85);
 opacity: 70%;
+    filter: grayscale(25%)
     
 }
 h5{
